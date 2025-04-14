@@ -1,0 +1,76 @@
+.parte-cima{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1e1e1e ;
+    color: white;
+    border-bottom: 5px solid red;
+
+}
+
+body{
+    background-color: #fbf9f9;
+    color: #333;
+    margin: 0;
+    
+}
+
+.texto-red{
+    color: red;
+   
+}
+
+.parte-tabela{
+    color: white;
+    background-color: #1e1e1e;
+}
+
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.ajuste-img{
+    width: 110px;
+    height: auto;
+    margin-right: 8px;
+
+}
+
+tr{
+    text-align: center;
+}
+
+.background{
+    background-color: #1e1e1e;
+    color: white;
+    border-bottom: 5px solid red;
+    border-top: 5px solid red;
+}
+
+.pilotos-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.piloto{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+}
+
+.piloto img{
+    width: 24px; 
+    height: auto;
+}
+
+td{
+    background-color: white;
+    border: 1px solid black;
+}
+
